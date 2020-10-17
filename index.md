@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+---
+layout: page
+title: Timbre
+feature_text: |
+  # Timbre is a blockchain-based social media platform that focuses on democratizing control over online speech
+# feature_image: "https://picsum.photos/1300/400?image=989"
+excerpt: "Timbre is a blockchain-based social media platform that focuses on democratizing control over online speech"
+---
 
-You can use the [editor on GitHub](https://github.com/timbrenetwork/www/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Unlike mainstream social media platforms, Timbre provides a blockchain-based decentralized forum architecture that aims to promote free speech. Read our whitepaper to learn more about the project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Source: 
+{% include button.html text="Fork it" icon="github" link="https://github.com/guyu96/go-timbre" color="#0366d6" %}
 
-### Markdown
+## Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Decentralized Off-chain Storage
+- Democratized content moderation
+- Sharded **Blockchains**
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Live Demos
 
-- Bulleted
-- List
+Here are a few applications built with Timbre
 
-1. Numbered
-2. List
+- [Reddit Clone](http://161.35.125.65:3000/)
 
-**Bold** and _Italic_ and `Code` text
+## To get started, you can
 
-[Link](url) and ![Image](src)
-```
+- Bootstrap a new forum
+  1. Clone the source code from our Github Repo
+  2. Run the application to bootstrap a new blockchain
+- Join an existing forum
+  1. Sign Up through an indexer to one of the active forums
+  
+***
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Project RoadMap
 
-### Jekyll Themes
+### June 2019
+- Designed Timbre to use blockchains to store indexes of all posts added to forums to protect freedom of speech.
+- Allowed anyone to become a moderator of any forum; moderators moderated by publishing a moderation stream which could be subscribed by any user.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/timbrenetwork/www/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### September 2019
+- Implemented DPoS to achieve consensus.
+- Added the features of publishing posts, comments, and upvotes/downvotes to Timbre’s web-based front end.
 
-### Support or Contact
+### December 2019
+- Completed the miner, moderator, indexer, storage provider, bandwidth provider, poster, and retriever roles.
+- Added node wallets which record decibel balances.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### March 2020
+- Started supporting epochs to counter re-centralization and to improve system scalability.
+- Allowed publishing content to different forums (blockchains) and freely switching between forums.
+
+### June 2020
+- Conducted comprehensive and thorough testing (e.g. stress testing) on different aspects of the system.
+
+### September 2020
+- Released Timbre v1.0, and users can use Timbre either through its website or by downloading the exe/installer file.
+- Released Timbre whitepaper v1.0.
+- Launched a testnet for testing Timbre.
