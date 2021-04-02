@@ -8,6 +8,3 @@ excerpt: "Timbre is a decentralized social media platform that decouples content
 ---
 
 Unlike mainstream social media platforms, Timbre aims to balance the need for free speech with content moderation. Read our whitepaper to learn more about the project.
-
-Source: 
-{% include button.html text="Fork it" icon="github" link="https://github.com/guyu96/go-timbre" color="#0366d6" %}
