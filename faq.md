@@ -9,14 +9,14 @@ permalink: /faq/
 ### What is **Timbre**?
 Timbre is a blockchain-based forum architecture that aims to promote free speech through decentralization of power in content provision, moderation and block production.
 
-### What is so unique about the **technology behind Timbre**? 
-The inherent features of the Blockchain technology provide Timbre to create a truly transparent decentralised storage network to power any social interaction platform. Timbre’s off-chain storage scheme parts a unique impermanence to the content that makes sure only valuable content is served and consumed. Additionally, Timbre’s moderation design enables arbitrary content views for a pluralistic and inclusive community platform.
+### What is so unique about the **design of Timbre**? 
+Timbre decouples content moderation from content storage to balance free speech with the need for moderation. Timbre’s moderation design enables arbitrary content views for a pluralistic and inclusive community platform. Timbre decentralizes both content storage and content moderation to allow and for democratic control over both aspects of the social media infrastructure. Timbre's intentionally ephemeral design mitigates the problem of eventual re-centralization of control.
 
 ### What makes Timbre stand out in comparison to other platforms such as Twitter, Reddit etc.? What does it provide to address the issue of fake news, cyber bullying etc. 
 The centralised nature of platforms such as Twitter, Reddit etc. gives extraordinary control over content to the platform owners. Any content that is not in line with the platform policies is taken down by the authorities. Timbre attempts to do none of that. However, to filter problematic content, we provide a moderation scheme that can be applied arbitrarily over content. 
 
 ### What is the Timbre Blockchain?
-Timbre blockchain is the publicly accessible distributed database that stores the index of posts on the forum, transactions(money transfers and storage deals) and votes.
+A Timbre blockchain stores the index of posts on a forum, transactions(money transfers and storage deals) and votes.
 
 ### What are Decibels and how can they be earned?
 Decibel is the cryptocurrency associated with a Timbre blockchain. Decibels are distributed on useful work performed within the forum. Miner earns a reward upon a successful extension of the blockchain.
@@ -28,13 +28,7 @@ Unlike Bitcoin, where a block producer needs to solve a cryptographic puzzle to 
 A user can become a: Miner/Storage Provider/Bandwidth Provider/Indexer/Poster.
 
 ### Is it necessary to run a full node to contribute to Timbre?
-No. One can sign up as a simple user on an active indexer. Each user gets 10000 Decibels as trial decibel balance to post/use the Timbre forum.
-
-### How often is a Timbre Block produced?
-The Timbre blockchain produces a new block every 5 seconds.
-
-### Is there a way to see the data stored on the Timbre Blockchain?
-Yes. Our application allows you to run a blockchain explorer in the browser to explore the data stored on the chain. Here’s a link(http://161.35.125.65:3000/explorer) to one of the blockchain explorers.
+No. One can sign up as a user on an active indexer. Each user gets 10000 Decibels as trial decibel balance to post/use the Timbre forum.
 
 ### Where is the content stored?
 To keep the block size as small as possible, the data is stored off-chain across Storage Providers. Storage Transactions called Deals are stored on the chain.
